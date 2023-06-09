@@ -45,7 +45,7 @@ function restart() {
     document.getElementById("message-1").style = "display:none;"
     document.getElementById("resetBtn-1").style = "display:none;"
     document.getElementById("rollBtn-1").style = "display:block;"
-    document.getElementById("holdBtn-2").style = "display:block;"
+    document.getElementById("holdBtn-1").style = "display:block;"
     document.getElementById("score-1").innerHTML = `${scorePlr1}`
     document.getElementById("holding-1").innerHTML = `${holdScorePlr1}`
 
