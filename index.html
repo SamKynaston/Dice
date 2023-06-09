@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam's Dice Game</title>
+    <link href="./css/themes.css" rel="stylesheet" type="text/css" />
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="./js/game.js"></script>
+</head>
+<body>
+    <img class="diceCounter" id="diceElement" src="./images/one.png"/>
+
+    <section class="players">
+        <section id="plr-1" class="dice active">
+            <h1 id="holding-1">0</h1>
+            <button id="rollBtn-1" onclick="roll(1)">Roll</button>
+            <button id="holdBtn-1" onclick="hold(1)">Hold</button>
+            <button style="display:none;" id="resetBtn-1" onclick="restart()">Reset</button>
+            <h1 style="display:none;" id="message-1"></h1>
+
+            <span class="bottom">
+                <h2>Score</h2>
+                <h3 id="score-1">0</h3>
+            </span>
+        </section>
+
+        <section id="plr-2" class="dice">
+            <h1 id="holding-2">0</h1>
+            <button id="rollBtn-2" onclick="roll(2)">Roll</button>
+            <button id="holdBtn-2" onclick="hold(2)">Hold</button>
+            <button style="display:none;" id="resetBtn-2" onclick="restart()">Reset</button>
+            <h1 style="display:none;" id="message-2"></h1>
+
+            <span class="bottom">
+                <h2>Score</h2>
+                <h3 id="score-2">0</h3>
+            </span>
+        </section>
+    </section>
+</body>
+</html>

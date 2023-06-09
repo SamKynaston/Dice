@@ -1,0 +1,47 @@
+body {
+    background-color:var(--background-color);
+    color:var(--background-text-color);
+    margin:0;
+    padding:0;
+}
+
+.players {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.diceCounter {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.dice {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    min-height: 100vh;
+    min-width: 50%;
+    gap:10px;
+}
+
+.dice.active {
+    background-color:var(--background-color-2) !important;
+    color:var(--background-text-color-2) !important;
+}
+
+.dice .bottom {
+    text-align:center;
+    margin-top: 100px;
+}
+
+.dice button {
+    padding:16px;
+    width:100px;
+}

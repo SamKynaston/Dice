@@ -1,0 +1,11 @@
+body {
+    font-family: Arial !important;
+    --background-color:#1c1c1c;
+    --background-text-color:#d9d9d9;
+
+    /*Second Player*/
+    --background-color-2:#262626;
+    --background-text-color-2:#f2f2f2;
+
+    --border-color:#2c2c2c;
+}
